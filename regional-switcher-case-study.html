@@ -384,7 +384,7 @@ This created two compounding problems: customers were confused about what was an
           </div>
         </div>
         <div class="annotation">
-          <p>The legacy regional experience showing the double navigation and hidden pinning flow — users had no idea they needed to pin products first, and once pinned they appeared duplicated in the sidebar with no explanation of which region was active for compliance.</p>
+          <p>The legacy regional experience showing the triple navigation and hidden pinning flow — users had no idea they needed to pin products first, and once pinned they appeared three regions in the sidebar with no explanation of which region was active for compliance.</p>
         </div>
       </div>
   </div>
@@ -405,7 +405,7 @@ This created two compounding problems: customers were confused about what was an
           <div class="role-dot"></div>
           <div>
             <h5>Navigation system design</h5>
-            <p>Designed the regional switcher from scratch — a header-level component replacing the confusing double-navigation of the legacy experience.</p>
+            <p>Designed the regional switcher from scratch — a header-level component replacing the confusing navigation of the legacy experience.</p>
           </div>
         </div>
         <div class="role-item">
@@ -610,8 +610,8 @@ This created two compounding problems: customers were confused about what was an
   <div class="impact-grid">
     <div class="impact-card">
       <div class="impact-lbl">Navigation layers</div>
-      <div class="impact-num">2→1</div>
-      <p>Replaced the double-navigation model with a single, consistent header-level switcher across the entire Console.</p>
+      <div class="impact-num">3→1</div>
+      <p>Replaced the triple-navigation model with a single, consistent header-level switcher across the entire Console.</p>
     </div>
     <div class="impact-card">
       <div class="impact-lbl">Product teams aligned</div>
@@ -628,7 +628,7 @@ This created two compounding problems: customers were confused about what was an
   <div class="two-col" style="margin-top: 1.5rem;">
     <div class="card">
       <h3>System scalability</h3>
-      <p>The component library and switcher pattern were designed to accommodate future regional expansion beyond EU-1. Any new Twilio region can be added without redesigning the navigation model. Built once, built to last.</p>
+      <p>The component library and switcher pattern were designed to accommodate future regional expansion beyond IE-1. Any new Twilio region can be added without redesigning the navigation model. Built once, built to last.</p>
     </div>
     <div class="card">
       <h3>Organisational impact</h3>
@@ -670,6 +670,13 @@ This created two compounding problems: customers were confused about what was an
           <div>
             <h5>The UI should teach the system model</h5>
             <p>Making the switcher appear only on regional products was a small decision with big clarity gains. Users learned which products were regional through normal product use — no documentation required.</p>
+          </div>
+        </div>
+        <div class="ref-item">
+          <div class="ref-icon">✓</div>
+          <div>
+            <h5>Shipping an MVP without compromising scalability</h5>
+            <p>With Signal as our deadline, we had to be strategic about scope. Rather than trying to solve every edge case at once, we designed the MVP to cover the core user needs while building on a foundation that could scale. What shipped for Signal was the beginning of something bigger.</p>
           </div>
         </div>
       </div>
