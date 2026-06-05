@@ -339,11 +339,11 @@
 <!-- PROBLEM -->
 <section>
   <div class="sec-label">02 · The problem</div>
-  <h2>Three pain points that made the regional experience broken</h2>
+  <h2>four pain points that made the regional experience broken</h2>
 
   <div class="two-col" style="margin-top: 2.5rem; gap: 3rem;">
     <div>
-      <p>The legacy regional experience had three compounding pain points that made it broken for enterprise customers:</p>
+      <p>The legacy regional experience had four compounding pain points that made it broken for enterprise customers:</p>
       <div class="pain-grid">
         <div class="pain-item" style="grid-column: span 2;">
           <div class="pain-num">Pain 01</div>
@@ -359,6 +359,12 @@
           <div class="pain-num">Pain 03</div>
           <h4>Navigation incompatible with new Console</h4>
           <p>The entire tab-based regional switching pattern was architecturally tied to the legacy Console structure. It was not going to survive the migration — a full redesign was unavoidable.</p>
+        </div>
+       <div class="pain-item" style="grid-column: span 2;">
+          <div class="pain-num">Pain 04</div>
+          <h4>Inconsistent regional offerings across products</h4>
+          <p>Not all Twilio products offered full regional support — and the inconsistency went deeper than product level. Within a single product like Voice, only some settings were regionalised while others remained global. Features like log archives applied across all regions simultaneously, with no way to scope them regionally.
+This created two compounding problems: customers were confused about what was and wasn't covered by their regional configuration, and the design of the new navigation had to account for this complexity — the switcher couldn't simply show or hide based on whether a product was "regional or not." It had to communicate partial regional support clearly, without creating more confusion than the legacy experience it was replacing.</p>
         </div>
       </div>
     </div>
@@ -379,14 +385,6 @@
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- PULL QUOTE -->
-<section style="padding: 0 3rem; border-bottom: none;">
-  <div class="pull-quote">
-    <blockquote>I came into this project new to the regional space — so I had to learn the product landscape, understand pain points across every team, and build the plan before writing a single spec. <em>The first deliverable wasn't a screen. It was a roadmap.</em></blockquote>
-    <cite>Isabela · Staff Product Designer, Twilio</cite>
   </div>
 </section>
 
